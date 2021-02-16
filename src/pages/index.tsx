@@ -70,7 +70,7 @@ const IndexPage = () => {
             </div>
             <button
               type="submit"
-              className="mt-6 bg-green-600 text-white rounded px-8 py-6 w-full disabled:bg-gray-400"
+              className="mt-6 bg-green-600 text-white rounded px-8 py-6 w-full disabled:bg-gray-400 disabled:cursor-not-allowed"
             >
               Create Account
             </button>
