@@ -102,7 +102,7 @@ const IndexPage = () => {
                   id="username"
                   name="username"
                   className="text-input"
-                  ref={register({
+                  ref={register( "username", {
                     required: { message: "Please enter", value: true },
                     minLength: { message: "Minimum length 3", value: 3 },
                   })}
